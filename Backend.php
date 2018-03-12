@@ -1,7 +1,15 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<a href='Frontend.html'>atgal</a>
+
 <?php
-/**
- * Created by PhpStorm.
- * User: CodeAcademy
- * Date: 2018-03-12
- * Time: 14:56
- */
+$ar = [$_POST['vardas'], $_POST['pavarde'], $_POST['pat']];
+file_put_contents('tekstas.txt', implode(',', $ar) . "\n", FILE_APPEND);
+?>
+
+</body>
+</html>
