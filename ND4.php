@@ -6,8 +6,3 @@ Panaudodami prieš tai sukurtą klasę automobilis (8.1), sukurkite klases lengv
  * lengvasis automobilis ‐ tiesiog paprastas žodis.
 
  */
-class auto
-{
-    public $gamintojas;
-    public $metai;
-    public $modelis;

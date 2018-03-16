@@ -10,4 +10,9 @@ class auto
 {
     public $gamintojas;
     public $metai;
-    public $modelis;
+    public $modelis;}
+    class lengvas extends auto
+    {
+
+    }
+    class krov extends auto
